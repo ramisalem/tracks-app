@@ -1,0 +1,292 @@
+/*start framwork*/
+body
+{
+    margin:0;
+    font-family:arial;
+   
+}
+.container
+{
+    width:1100px;
+    margin:auto;
+    
+}
+h1
+{
+    margin:0
+}
+* 
+{
+    box-sizing: border-box
+}
+/*end framwork*/
+
+
+
+
+
+/* start header*/
+
+header .nav
+{
+    background: #1A181B;
+   
+   
+   
+   
+}
+header .container
+{
+    overflow: auto;
+    
+}
+
+header .container h2
+{
+    margin:0;
+    padding: 0;
+    text-transform:capitalize;
+    font-family: arial;
+    font-size: 26px;
+    color: #fff;
+    float:left;
+    line-height: 57px
+   
+       
+}
+
+header .container h2 span
+{
+    color:#75C400
+}
+
+header .container ul
+{
+    list-style: none;
+    overflow: auto;
+    padding-left: 0;
+    float: right
+    
+}
+header .container ul li
+{
+    color:#fff;
+    display: inline-block;
+    padding: 5px 13px;
+    font:bold 16px arial;
+    text-transform: capitalize
+}
+
+header .container ul li:nth-child(4){color:#75C400;text-decoration: underline}
+
+header .container ul li:hover{
+    text-decoration: underline;
+    color:#75C400;
+    cursor:pointer   
+}
+
+
+
+
+
+
+
+
+
+/*start products*/
+.products
+{
+    padding:80px 0;
+    text-align: center;
+    
+}
+
+.products .container h1
+{
+    text-shadow: 1px 1px 9px #b1b1b1;
+    text-transform: capitalize;
+}
+
+.products .container .title::after
+{
+    content: "";
+    display: block;
+    background-color: #75C400;
+    height: 4px;
+    width: 10%;
+    margin:10px auto 20px
+}
+ 
+}
+
+.products .container .types
+{
+    overflow: auto;
+    text-align: center;
+    padding:20px 0
+}
+
+.products .types div
+{
+    display: inline-block;
+    width:20%;
+    border:2px solid #eee;
+    padding:10px ;
+    margin:10px
+  
+    
+}
+
+.products .types img
+{
+    width:150px;
+    height:150px
+}
+
+.products .types h5
+{
+    color:#75C400
+}
+
+.products .types select
+{
+     padding: 7.2px 5px;
+    margin-bottom: 10px
+}
+
+
+
+
+.products .container .clearfix
+{
+    clear: both
+}
+
+.products .container .types button
+{
+    border:1px solid #948B98;
+    text-transform: capitalize;
+    outline: none;
+    cursor: pointer;
+   background: none;
+    color: #1B191C;
+    padding: 7.2px 5px
+}
+.products .container .types button:hover
+{
+    color:#75C400;
+    border:1px solid #75C400
+}
+.products .container button i
+{
+    font-size: 16px
+}
+
+
+
+.products .more
+{
+    background:#75C400;
+    margin:30px;
+    padding:14px 36px;
+    border: 1px solid #75C400;
+    border-radius: 5px;
+    font: 18px arial;
+    color:#fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.products button:hover
+{
+    color:#75C400;
+    background:#fff;
+   
+}
+
+/*end products*/
+
+
+
+
+
+
+/* start footer*/
+ .footer
+{
+    padding:50px 0 ;
+    text-align: center;
+    background: #1A181B
+}
+
+.footer h1
+{
+    text-transform: capitalize;
+    color:#fff;
+    
+}
+.footer h1 span
+{
+    color:#75C400
+}
+
+
+.footer i 
+{
+    font-size: 50px;
+    color:#eee;
+    padding:30px 5px
+}
+
+.footer i:hover
+{
+    cursor: pointer;
+    color:#75C400
+}
+
+
+.footer p
+{
+    color:#f0eeee
+}
+.footer p a
+{
+    text-decoration: none;
+    color:#75C400;
+    text-transform: capitalize;
+    
+}
+.footer p a:hover
+{
+    color:#eee
+}
+/* end footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

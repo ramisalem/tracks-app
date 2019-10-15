@@ -1,0 +1,229 @@
+/*start framwork*/
+body
+{
+    margin:0;
+    font-family:arial;
+    background-image: url(BG.jpg)
+   
+}
+.container
+{
+    width:1100px;
+    margin:auto;
+    
+}
+h1
+{
+    margin:0
+}
+* 
+{
+    box-sizing: border-box
+}
+/*end framwork*/
+
+
+/************************************************************/
+
+
+/*start header */
+
+header
+{
+    background: #1A181B;
+   
+   
+   
+   
+   
+}
+header .container
+{
+    overflow: auto;
+    
+}
+
+header .container h1
+{
+    margin:0;
+    padding: 0;
+    text-transform:capitalize;
+    font-family: arial;
+    font-size: 26px;
+    color: #fff;
+    float:left;
+    line-height: 57px
+       
+}
+
+header .container h1 span
+{
+    color:#75C400
+}
+
+header .container h2
+{
+    float: right;
+    text-transform:capitalize;
+    font-family: arial;
+    color: #fff;
+    line-height: 16px
+}
+
+header .container h2 span
+{
+     color:#75C400
+}
+
+
+
+/*end header*/
+
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+   padding: 40px ;
+    background: rgba(0,0,0,.8) ;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5); 
+    border-radius: 10px ;
+
+}
+
+.box h2{
+    color: #fff;
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+      
+}
+
+.box .inputBox{
+    position: relative ;
+}
+.box .inputBox input{
+    width: 100%;
+    padding:  10px 0 ;
+    font-size: 16px;  
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #75C400;
+    outline: none;
+    background: transparent ;
+    
+    
+}
+.box .inputBox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 1.4s;
+    
+}
+
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label{
+    top: -18px;
+    left: 0;
+    color: #75C400;
+    font-size: 12px;    
+}
+
+.box input[type="submit"]{
+    
+   
+    border: 2px solid #75C400;
+    outline: none;
+    color: #fff;
+    background:  #75C400;
+    padding: 10px 20px ;
+    cursor: pointer;
+    border-radius: 10px ;
+    font-size: 20px
+    
+}
+
+.box input[type="submit"]:hover
+{
+    background: #fff;
+    color:#75C400
+}
+
+
+
+/* start footer*/
+ .footer
+{
+   padding:10px;
+    text-align: center;
+    background: #1A181B;
+    position: absolute;
+    width:100%;
+    bottom:0%
+}
+
+
+
+.footer .soial
+{
+    float: left
+}
+.footer i 
+{
+    font-size: 30px;
+    color:#75C400;
+    padding:20px 5px 10px 
+}
+
+.footer i:hover
+{
+    cursor: pointer;
+    color:#eee
+}
+
+
+.footer p
+{
+    color:#f0eeee;
+    float:right;
+    line-height: 28px
+}
+
+}
+
+/* end footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
